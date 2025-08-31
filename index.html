@@ -8,7 +8,7 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap"
       rel="stylesheet"
     />
-    <title>Vite App</title>
+    <title>Jhasim's Portfolio</title>
   </head>
   <body>
     <header class="header container">
@@ -25,7 +25,8 @@
           </li>
           <li class="header__line"></li>
           <li>
-            <button class="header__sun">
+            <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -42,10 +43,10 @@
             </button>
           </li>
           <li>
-            <a class="header__resume btn" href="#">Resume</a>
+            <a class="header__resume btn" href="https://drive.google.com/file/d/1wqJlWUHsGXIzKnHyyQureIFz3JCFQzfV/view?usp=sharing">Resume</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button aria-label="mobile nav button" class="header__bars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -117,20 +118,21 @@
         <div class="about__content">
           <h2 class="about__title">About</h2>
           <p class="about__description">
-            Hello there! I'm Jhasim Hassan, a
-            <strong>Frontend/ Full-Stack</strong> web Developer based near
-            Chennai.
+             I'm <strong>Jhasim Hassan</strong> — a passionate <strong>Full-Stack / Frontend Developer</strong> 
+      based near Chennai, specializing in building <em>scalable, user-focused web applications</em> 
+      that blend clean design with solid engineering.
           </p>
           <p class="about__description">
-            I've interned at startups and enterprises, contributing to
+            I've <strong>interned at startups and enterprises</strong>, contributing to
             full-stack ERP systems, authentication workflows, and
-            production-grade applications. I was also a Team Lead at IOB
-            Cybernova Hackathon, where my team ranked Top 10 out of 96
+            production-grade applications. As a Team Lead at IOB Cybernova Hackathon, 
+      I guided my team to a <strong>Top 10 finish out of 96 teams</strong>.
           </p>
           <p class="about__description">
-            I love solving problems, leading projects, and integrating AI with
-            modern web technologies. I'm adaptable, detail-oriented, and always
-            eager to learn.
+            Beyond code, I enjoy solving complex problems, driving collaborative projects, and 
+      experimenting with the intersection of <strong>AI and modern web technologies</strong>. 
+      I bring adaptability, attention to detail, and a mindset of continuous learning to every project.
+    </p>
           </p>
           <hr class="about__hr" />
           <h3 class="about__subtitle">Technologies</h3>
@@ -148,7 +150,8 @@
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img src="/about.jpg" alt="Profile picture" />
+          <img class="about__img lazy loading" src="https://via.placeholder.com/720" data-src="/about.jpg" alt="Profile picture" />
+
         </div>
       </section>
       <section id="featured" class="featured container section">
@@ -158,7 +161,7 @@
           <a
             aria-label="link featured projects"
             class="featured__link"
-            href="#"
+            href="https://github.com/Jhasim9904/ERP4Dentist_Next.js"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +203,7 @@
           </div>
           <div>
             <h3 class="featured__label">Timeline</h3>
-            <p class="featured__info">December 2024 - present</p>
+            <p class="featured__info">July 2025 - present</p>
           </div>
         </div>
         <div class="featured__img-container">
@@ -208,64 +211,48 @@
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/slayingthedragon.png"
-              alt="Slaying The Dragon hero"
+              data-src="/erp1.png"
+              alt="erp1"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/courses.png"
-              alt="Slaying The Dragon courses"
+              data-src="/erp2.png"
+              alt="erp2"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/pricing.png"
-              alt="Slaying The Dragon pricing"
+              data-src="/erp3.png"
+              alt="erp3"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/features.png"
-              alt="Slaying The Dragon features"
+              data-src="/erp4.png"
+              alt="erp4"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/faq.png"
-              alt="Slaying The Dragon faqs"
+              data-src="/erp5.png"
+              alt="erp5"
             />
           </div>
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
               src="https://via.placeholder.com/1920x968"
-              data-src="/blog.png"
-              alt="Slaying The Dragon blog"
-            />
-          </div>
-          <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1920x968"
-              data-src="/signin.png"
-              alt="Slaying The Dragon sign-in"
-            />
-          </div>
-          <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1920x968"
-              data-src="/app.png"
-              alt="Slaying The Dragon dashboard"
+              data-src="/erp6.png"
+              alt="erp6"
             />
           </div>
         </div>
@@ -304,7 +291,7 @@
             </p>
             <a
               class="btn work__project-btn"
-              href="https://github.com/Jhasim9904/ElevateAI"
+              href="https://elevate-ai-phi.vercel.app/"
               target="_blank"
               >Website</a
             >
@@ -334,7 +321,7 @@
             </p>
             <a
               class="btn work__project-btn"
-              href="https://github.com/Jhasim9904/Expense-Buddy-FastAPI-MCP"
+              href="https://expense-buddy-mcp-server.onrender.com/"
               target="_blank"
               >Website</a
             >
@@ -428,7 +415,7 @@
               >Website</a
             >
           </div>
-          <!-- Project 6 -->
+          <!-- Project 6
           <h3 class="work__project-title">Old Portfolio</h3>
           <div class="work__img-wrapper work__image6">
             <img
@@ -454,7 +441,7 @@
               >Website</a
             >
           </div>
-        </div>
+        </div> -->
       </section>
 
       <section id="contact" class="contact container section">
@@ -478,6 +465,6 @@
       <h3 class="footer__title">~ Jhasim Hassan ~</h3>
     </footer>
 
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
